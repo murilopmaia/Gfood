@@ -1,0 +1,103 @@
+.Comida{
+    
+    width: 190px;
+    display: flex;
+    
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 10px;
+    height: 150px;
+    
+    position: relative;
+  }
+
+  .Cor_de_fundo{
+    background-color: white;
+    border-radius: 15%;
+    position: absolute;
+    top: 35px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .Comida .Descri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+    
+   
+    gap: 4px;
+  }
+
+  .Comida .Descri h4{
+    font-weight: bold;
+    font-size: 20px;
+   
+  }
+  
+  .Comida .Price{
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .Comida .Price .Red{
+    color: rgb(198, 0, 0);
+    font-weight: bold;
+  }
+  
+  .Comida img{
+    
+    height: 130px;
+    max-width: 200px;
+  }
+  
+  .Comida .Botoes{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    
+  }
+  
+  .Comida .Botoes button{
+    border: 0;
+    cursor:pointer;
+    width: 40px;
+    height: 30px;
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    transition: all 500ms ease;
+    border-radius: 100%;
+    font-size: 14px;
+    
+  }
+  
+  .Comida .Botoes .es{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 25px rgba(131, 165, 255, 0.25);
+  }
+  
+  .Comida .Botoes .di{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 25px rgba(131, 165, 255, 0.25);
+  }
+  
+  .Comida .Botoes button:hover{
+    
+    transform: scale(1.1);
+  }
