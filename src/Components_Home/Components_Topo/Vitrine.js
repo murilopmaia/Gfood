@@ -27,7 +27,7 @@ function Vitrine({Apresente}){
     }
     
     return(
-        <div>
+       
             <div className='Comida'>
                 <div className='Cor_de_fundo'></div>
                 <img src={Apresente[Ind].imagem} alt={Apresente[Ind].Nome}/>
@@ -35,7 +35,7 @@ function Vitrine({Apresente}){
                     <h4>{Apresente[Ind].Nome}</h4>
                     <p>{Apresente[Ind].Descri}</p>
                     <div className='Price'>
-                    <p className='Red'>R$:</p>
+                    <p className='Red'>$:</p>
                     <p>{Apresente[Ind].Preço}</p>
                     </div>
                     
@@ -45,7 +45,7 @@ function Vitrine({Apresente}){
                     <button onClick={handleEsquerda} className='di'>{esquerda}</button>
                 </div>
             </div>
-        </div>
+       
     )
 }
 

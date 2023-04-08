@@ -1,0 +1,102 @@
+.Menu_corpo{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Menu_corpo .Menu_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Menu_corpo .Menu_titulo p{
+    color: #F48E28;
+
+}
+
+.Menu_corpo .Menu_titulo h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+.Produtos_corpo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    max-height: 1000px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #F48E28 white;
+    
+}
+
+.Produtos_corpo::-webkit-scrollbar{
+    width: 12px; 
+} 
+
+.Produtos_corpo::-webkit-scrollbar-track{
+    background: white;
+}
+
+.Produtos_corpo::-webkit-scrollbar-thumb{
+  background-color: #F48E28;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;
+}
+
+.Botao_more{
+    transition: all 500ms ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ;
+    background-color: #F48E28;
+    border-radius: 37px;
+    color: white;
+    width: 15%;
+    font-size: 0.8rem;
+    max-height: 52px;
+    padding-left: 1%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.Botao_more img{
+    transition: all 500ms ease;
+    scale: 0.7;
+    background-color: white;
+    padding: 10%;
+    border-radius: 100%;
+}
+
+.Botao_more:hover{
+    transition: all 500ms ease;
+    transform: scalex(1.1);
+    box-shadow: black 2px 2px;
+    cursor: pointer;
+    
+}
+
+.Botao_more:hover img{
+    transition: all 500ms ease;
+    transform: rotate(180deg);
+    
+}
+
+

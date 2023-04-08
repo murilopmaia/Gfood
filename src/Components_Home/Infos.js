@@ -16,7 +16,7 @@ function Infos(){
             <div className="Instru">
 
                 <div>
-                    <img src="Local.png" alt="locas" />
+                    <img src="Local.png" alt="local" />
                 </div>
                 
                 <h5>Washington, D.C., DC,USA</h5>
@@ -25,7 +25,7 @@ function Infos(){
             <div className="Linha"></div>
             <div className="Instru">
                 <div>
-                    <img src="Telefone.png" alt="Contato" />
+                    <img src="telefone.png" alt="Contato" />
                 </div>
                 
                 <h5>+0123 456 7891</h5>

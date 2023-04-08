@@ -1,15 +1,17 @@
 .Comida{
     
-    width: 190px;
+    width: 90%;
+    max-width: 190px;
+    
     display: flex;
     
-    margin-top: 60px;
+    margin-top: 40px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
+    
     gap: 10px;
-    height: 150px;
+    height: 200px;
     
     position: relative;
   }
@@ -19,7 +21,7 @@
     border-radius: 15%;
     position: absolute;
     top: 35px;
-    height: 80%;
+    height:100%;
     width: 100%;
     z-index: -1;
   }
@@ -30,7 +32,8 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-   
+    font-size: 0.8rem;
+    max-width:150px ;
     
    
     gap: 4px;
@@ -38,7 +41,9 @@
 
   .Comida .Descri h4{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
+    max-width:150px ;
+    overflow-wrap:break-word;
    
   }
   
@@ -55,12 +60,13 @@
   
   .Comida img{
     
-    height: 130px;
+    height: 70%;
     max-width: 200px;
   }
   
   .Comida .Botoes{
-    width: 90px;
+    width: 50%;
+    min-height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,8 +78,8 @@
   .Comida .Botoes button{
     border: 0;
     cursor:pointer;
-    width: 40px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     
     justify-content: center;
     text-align: center;
@@ -81,7 +87,7 @@
   
     transition: all 500ms ease;
     border-radius: 100%;
-    font-size: 14px;
+    font-size: 1.2rem;
     
   }
   

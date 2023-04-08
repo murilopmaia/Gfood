@@ -1,0 +1,81 @@
+import {Link} from 'react-router-dom'
+import { useState } from "react";
+
+//css
+import "./ComFooter.css"
+function ComFooter(){
+    const [Escrita,setEscrita] = useState("");
+    const [Confirma,setConfirma] = useState("Enter your email.....")
+
+    function HandleSubmit(e){
+        e.preventDefault();
+        if(Escrita != ""){
+            setConfirma("Enviado!");
+            setEscrita("");  
+        }
+        
+    }
+
+    return(
+        <div className="Corpo_footer">
+            <footer >
+                <div className='div_logo'>
+                    <img width="40%" src="Logo.png" alt="Logo" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
+                    <div className='Redes_soc'>
+                        <img width="10%" src="Facebook.png" alt="Facebook" />
+                        <img width="10%" src="Twitter.png" alt="Twitter" />
+                        <img width="10%" src="Linkind.png" alt="Linkind" />
+                        <img width="10%" src="Instagram.png" alt="Instagram" />
+                    </div>
+                </div>
+
+
+                <div className='Footer_limite'>
+                    <div  className='Corpo_div'>
+                        <h4>Opening Restaurant</h4>
+                        <div className='Text_footer'>
+                            <p>Sat-Wet: 09:00am-10:00PM</p>
+                            <p>Thursdayt: 09:00am-11:00PM</p>
+                            <p>Friday: 09:00am-8:00PM</p>
+                        </div>
+                    </div>
+
+                    <div  className='Corpo_div'> 
+                        <h4>User Link</h4>
+                        <div className='Text_footer'>
+                            <Link to="/About"><p>About us</p></Link>
+                            <Link to="/Contact"><p>Contact Us</p></Link>
+                            <Link to="/Order"><p>Order Delivery</p></Link>
+                            <Link to="/Payment"><p>Payment & Tex</p></Link>
+                            <Link to="/Terms"><p>Terms of Services</p></Link>
+                        </div>
+                        
+                    </div>
+
+                    <div  className='Corpo_div'>
+                        <h4>Contact Us</h4>
+                        <div className='Footer_contato'>
+                            <div className='Text_footer'>
+                                <p>1234 Country Club Ave</p>
+                                <p>NC 123456, London, UK</p>
+                                <p>+0123 456 7891</p>
+                            </div>
+                            
+                            <form onSubmit={HandleSubmit}>
+                            <label>
+                                <input className="in_text" disabled={Confirma === "Enviado!"? "1" : ""} minLength={10} maxLength={30} type="email" placeholder={Confirma} onChange={(e)=> setEscrita(e.target.value)} value={Escrita} />
+                                <input className="in_submit" type="Submit" value=">"/>
+                            </label>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </footer>
+        </div>
+    )
+}
+
+export default ComFooter;

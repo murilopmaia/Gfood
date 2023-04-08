@@ -1,0 +1,79 @@
+.Corpo_NewsLetter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14%;
+    align-items: center;
+    position: relative;
+}
+
+.Fundo_NewsLetter{
+    width: 100%;
+    height: 60%;
+    background-color: black;
+    position: absolute;
+    border-radius: 40px;
+    z-index: -111;
+}
+
+
+
+.Infos_letter{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    color: white;
+}
+
+
+
+
+.input_text{
+    width: 67%;
+    border: 0;
+    background-color: white;
+    
+}
+
+.input_text:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.Infos_letter label{
+    
+    background-color: white;
+    padding: 2% 1% 2% 3%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+
+.input_submit{
+    padding: 3% 4%;
+    border: 0;
+    color: white;
+    border-radius: 11px;
+    background-color: #F48E28;
+    transition: all 500ms ease;
+}
+
+.input_submit:hover{
+    cursor: pointer;
+    color: gray;
+    transition: all 500ms ease;
+}
+
+.Infos_letter h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.Infos_letter p{
+    font-size: 0.8rem;
+    text-align: start;
+}
