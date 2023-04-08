@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gfood/static/css/main.e25cdcd9.css",
+    "main.js": "/gfood/static/js/main.f8f553ef.js",
+    "static/js/787.4c9206f0.chunk.js": "/gfood/static/js/787.4c9206f0.chunk.js",
+    "index.html": "/gfood/index.html",
+    "main.e25cdcd9.css.map": "/gfood/static/css/main.e25cdcd9.css.map",
+    "main.f8f553ef.js.map": "/gfood/static/js/main.f8f553ef.js.map",
+    "787.4c9206f0.chunk.js.map": "/gfood/static/js/787.4c9206f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25cdcd9.css",
+    "static/js/main.f8f553ef.js"
+  ]
+}
