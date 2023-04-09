@@ -207,6 +207,25 @@
     }
 }
 
+@media(max-width:420px){
+    .Corpo_topo{
+        margin-top: 35%;
+    }
+   
+    .Esquerdo{
+        width: 80%;
+    }
+    .Direito{
+        width: 80%;
+    }
+    .Direito .Cima{
+        gap: 10%;
+    }
+    .Direito .Baixo{
+        gap: 10%;
+    }
+}
+
 @media(max-width:580px){
     .Texto_central{
         font-size: 1.5rem;

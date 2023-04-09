@@ -34,26 +34,14 @@
     gap: 3%;
     justify-content: center;
     align-items: center;
-    max-height: 1000px;
-    overflow: auto;
-    scrollbar-width: thin;
-    scrollbar-color: #F48E28 white;
+    
     
 }
 
-.Produtos_corpo::-webkit-scrollbar{
-    width: 12px; 
-} 
 
-.Produtos_corpo::-webkit-scrollbar-track{
-    background: white;
-}
 
-.Produtos_corpo::-webkit-scrollbar-thumb{
-  background-color: #F48E28;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid orange;
-}
+
+
 
 .Botao_more{
     transition: all 500ms ease;
@@ -106,3 +94,4 @@
         width: 80%;
     }
 }
+

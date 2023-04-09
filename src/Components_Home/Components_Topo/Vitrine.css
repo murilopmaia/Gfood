@@ -131,4 +131,11 @@
     max-width: 150px;
   }
  }
+
+ @media(max-width:420px){
+  .Comida{
+    max-width: 130px;
+    height: 180px;
+  }
+ }
  

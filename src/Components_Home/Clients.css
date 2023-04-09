@@ -147,3 +147,14 @@
         display: none;
     }
 }
+
+@media(max-width:420px){
+    .Cliente_descri{
+        width: 60%;
+        height: 180px;
+    }
+    .Texto_coment{
+        font-size: 0.7rem;
+    }
+   
+}

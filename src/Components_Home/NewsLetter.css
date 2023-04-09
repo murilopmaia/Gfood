@@ -125,3 +125,20 @@
         width: 50%;
     }
 }
+
+@media(max-width:490px){
+    .Corpo_NewsLetter{
+        flex-direction: column;
+        gap: 3%;
+    }
+    .Corpo_NewsLetter IMG{
+        width: 40%;
+    }
+    .Fundo_NewsLetter{
+        height: 100%;
+        width: 80%;
+    }
+    .Infos_letter{
+        width: 60%;
+    }
+}
