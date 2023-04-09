@@ -15,7 +15,7 @@ function App() {
         
         <BrowserRouter>
             <Routes>
-                  <Route path='/gfood' element={<Home/>}/>
+                  <Route path='/' element={<Home/>}/>
                   <Route path='/About' element={<Page_Not/>}/>
                   <Route path='/Contact' element={<Page_Not/>}/>
                   <Route path='/Order' element={<Page_Not/>}/>
