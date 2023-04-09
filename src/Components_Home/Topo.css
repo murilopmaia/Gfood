@@ -184,20 +184,28 @@
     .Direito{
         width: 75%;
         align-items: center;
+        justify-content: center;
         
     }
     .Direito .Cima{
+        align-items: center;
+        justify-content: center;
         width: 100%;
         gap: 15%;
     }
     
     .Direito .Baixo{
+        align-items: center;
+        justify-content: center;
         width: 100%;
         gap: 15%;
     }
 
     .fundo_cinza{
         width: 80%;
+        
+        
+        
     }
 }
 
@@ -211,18 +219,14 @@
     .Corpo_topo{
         margin-top: 40%;
     }
-   
+    
+    
+    .Direito{
+        display: none;
+    }
+    
     .Esquerdo{
         width: 100%;
-    }
-    .Direito{
-        width: 80%;
-    }
-    .Direito .Cima{
-        gap: 10%;
-    }
-    .Direito .Baixo{
-        gap: 10%;
     }
 }
 

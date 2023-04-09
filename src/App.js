@@ -22,7 +22,7 @@ function App() {
                   <Route path='/Payment' element={<Page_Not/>}/>
                   <Route path='/Terms' element={<Page_Not/>}/>
                   <Route path='/Shope' element={<Page_Not/>}/>
-                  
+                  {/* <Route path='*' element={}/> */}
             </Routes>
         </BrowserRouter>
     </div>

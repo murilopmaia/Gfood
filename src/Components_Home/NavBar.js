@@ -6,6 +6,8 @@ import { useState } from 'react'
 import Pesquisa_item from './Components_NavBar/Pesquisa_item'
 //css
 import "./NavBar.css"
+//Imagem
+
 
 function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Qtd_itens}){
     const [Escrita,setEscrita] = useState("");
