@@ -137,5 +137,11 @@
     max-width: 130px;
     height: 180px;
   }
+  .Comida img{
+    max-width: 130px;
+  }
+  .Comida .Descri h4{
+    font-size: 1.2rem;
+  }
  }
  

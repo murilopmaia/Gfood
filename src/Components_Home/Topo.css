@@ -209,11 +209,11 @@
 
 @media(max-width:420px){
     .Corpo_topo{
-        margin-top: 35%;
+        margin-top: 40%;
     }
    
     .Esquerdo{
-        width: 80%;
+        width: 100%;
     }
     .Direito{
         width: 80%;
@@ -222,9 +222,14 @@
         gap: 10%;
     }
     .Direito .Baixo{
-        gap: 10%;
+        gap:10%;
+    }
+    .Botoes{
+        gap: 20px;
     }
 }
+
+
 
 @media(max-width:580px){
     .Texto_central{

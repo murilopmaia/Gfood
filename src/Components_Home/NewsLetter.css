@@ -141,4 +141,7 @@
     .Infos_letter{
         width: 60%;
     }
+    .input_text::placeholder{
+        font-size: 0.7rem;
+    }
 }
