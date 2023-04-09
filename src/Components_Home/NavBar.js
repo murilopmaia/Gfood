@@ -7,7 +7,7 @@ import Pesquisa_item from './Components_NavBar/Pesquisa_item'
 //css
 import "./NavBar.css"
 //Imagem
-
+import Logo from '../assets/Logo.png'
 
 function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Qtd_itens}){
     const [Escrita,setEscrita] = useState("");
@@ -16,7 +16,7 @@ function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Q
     return(
            
             <header className='Corpo_navbar'>
-                <img className='Logo' width="60px" src="Logo.png" alt="Logo" />
+                <img className='Logo' width="60px" src={Logo} alt="Logo" />
                 <div className='Centro_navbar'>
                     <div className='NavBar_links' >
                         <button onClick={Handle_ScrollHome}>Home</button>
