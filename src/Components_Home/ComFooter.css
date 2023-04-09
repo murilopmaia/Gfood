@@ -1,26 +1,34 @@
+
 .Corpo_footer{
     width: 100%;
     background-color: #FAFAFF;
-    
-   
-}
-
-.Corpo_footer footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 7%;
     align-items: center;
+    justify-content: center;
 }
 
-.Corpo_footer .Corpo_div{
-    width: max-content;
+footer{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    gap: 70px;
+    
+}
+
+.Corpo_div{
+    
     display: flex;
     flex-direction: column;
     gap: 40px;
+    width: 15%;
+    min-width: 150px;
 }
 
-.Corpo_footer .Corpo_div p{
+  .Corpo_div p{
     font-size: 0.8rem;
     color: #B6B6B6;
 }
@@ -31,7 +39,7 @@
     gap: 3%;
 }
 
-.Corpo_footer .Corpo_div h4{
+  .Corpo_div h4{
     font-size: 1.2rem;
     font-weight:bold ;
 }
@@ -43,10 +51,11 @@
 }
 
 .div_logo{
-    width: 18%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    min-width: none;
 }
 
 .div_logo p{
@@ -113,10 +122,3 @@
     gap: 15px;
 }
 
-.Footer_limite{
-    margin-top: 2%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    gap: 16%;
-}

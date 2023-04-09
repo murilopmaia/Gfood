@@ -61,11 +61,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    ;
+    
     background-color: #F48E28;
     border-radius: 37px;
     color: white;
     width: 15%;
+    min-width: 170px;
     font-size: 0.8rem;
     max-height: 52px;
     padding-left: 1%;
@@ -100,3 +101,8 @@
 }
 
 
+@media(max-width:1065px){
+    .Menu_corpo{
+        width: 80%;
+    }
+}

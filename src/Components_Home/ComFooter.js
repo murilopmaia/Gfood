@@ -17,21 +17,21 @@ function ComFooter(){
     }
 
     return(
-        <div className="Corpo_footer">
+        <div className='Corpo_footer'>
             <footer >
                 <div className='div_logo'>
-                    <img width="40%" src="Logo.png" alt="Logo" />
+                    <img width="50%" src="Logo.png" alt="Logo" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
                     <div className='Redes_soc'>
-                        <img width="10%" src="Facebook.png" alt="Facebook" />
-                        <img width="10%" src="Twitter.png" alt="Twitter" />
-                        <img width="10%" src="Linkind.png" alt="Linkind" />
-                        <img width="10%" src="Instagram.png" alt="Instagram" />
+                        <img width="12%" src="Facebook.png" alt="Facebook" />
+                        <img width="12%" src="Twitter.png" alt="Twitter" />
+                        <img width="12%" src="Linkind.png" alt="Linkind" />
+                        <img width="12%" src="Instagram.png" alt="Instagram" />
                     </div>
                 </div>
 
 
-                <div className='Footer_limite'>
+                
                     <div  className='Corpo_div'>
                         <h4>Opening Restaurant</h4>
                         <div className='Text_footer'>
@@ -70,11 +70,13 @@ function ComFooter(){
                         </form>
                         </div>
                     </div>
-                </div>
+                
 
                 
             </footer>
         </div>
+            
+        
     )
 }
 

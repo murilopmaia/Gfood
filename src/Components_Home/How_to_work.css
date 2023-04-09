@@ -29,6 +29,7 @@
 .How_titulo h3{
     font-size: 1.8rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .How_infos{
@@ -119,3 +120,11 @@
     
 }
 
+@media(max-width:620px){
+    .How_infos p{
+        font-size: 0.7rem;
+    }
+    .How_infos h4{
+        font-size: 1rem;
+    }
+}

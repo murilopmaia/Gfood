@@ -14,7 +14,7 @@ function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Q
     return(
            
             <header className='Corpo_navbar'>
-                <img width="6%" src="Logo.png" alt="Logo" />
+                <img className='Logo' width="60px" src="Logo.png" alt="Logo" />
                 <div className='Centro_navbar'>
                     <div className='NavBar_links' >
                         <button onClick={Handle_ScrollHome}>Home</button>

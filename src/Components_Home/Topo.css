@@ -78,7 +78,7 @@
     justify-content: center;
     align-items: center;
     padding: 0% 10%;
-    height: 100%;
+    
     font-size: 1.2rem;
     color: white;
     font-weight: bold;
@@ -154,4 +154,77 @@
     flex-direction: row;
     gap: 20px;
     height: 70%;
+}
+
+@media(max-width:1030px){
+    .Corpo_topo{
+        gap: 50px;
+        
+    }
+}
+
+
+@media(max-width:913px){
+    .Texto_central{
+        font-size: 2rem;
+    }
+}    
+
+@media(max-width:833px){
+    .Corpo_topo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Esquerdo{
+        width: 75%;
+        gap: 60px;
+        
+    }
+    .Direito{
+        width: 75%;
+        align-items: center;
+        
+    }
+    .Direito .Cima{
+        width: 100%;
+        gap: 15%;
+    }
+    
+    .Direito .Baixo{
+        width: 100%;
+        gap: 15%;
+    }
+
+    .fundo_cinza{
+        width: 80%;
+    }
+}
+
+@media(max-width:700px){
+    .Corpo_topo{
+        margin-top: 30%;
+    }
+}
+
+@media(max-width:580px){
+    .Texto_central{
+        font-size: 1.5rem;
+    }
+    .Direito .Cima{
+        width: 100%;
+        gap: 15%;
+    }
+    .Direito{
+        width: 85%;
+    }
+    .Direito .Baixo{
+        width: 100%;
+        gap: 15%;
+    }
+
+    .fundo_cinza{
+        width: 80%;
+        
+    }
 }

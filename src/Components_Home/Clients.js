@@ -63,7 +63,7 @@ function Clientes(){
                 <button onClick={handleDireita}>{direita}</button>
             </div>
 
-            <img width="40%" src="Hamburguer.png" alt="Hambuguer" />
+            <img className='Imagem_hamb' width="40%"  src="Hamburguer.png" alt="Hambuguer" />
             </div>
         </div>
     )

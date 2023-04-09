@@ -134,3 +134,16 @@
     justify-content: center;
 
 }
+
+@media(max-width:640px){
+    .Clientes_Corpo{
+        align-items: center;
+        justify-content: center;
+    }
+    .Cliente_descri{
+        width: 80%;
+    }
+    .Clientes_Corpo .Imagem_hamb{
+        display: none;
+    }
+}

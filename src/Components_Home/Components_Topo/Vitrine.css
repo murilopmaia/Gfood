@@ -107,3 +107,28 @@
     
     transform: scale(1.1);
   }
+
+  @media(max-width:990px){
+    .Comida{
+      max-width:150px ;
+    }
+    .Comida img{
+      max-width: 180px;
+    }
+  }
+
+ @media(max-width:833px){
+    .Comida{
+      max-width: 180px;
+    }
+    .Comida img{
+      max-width: 200px;
+    }
+ }
+
+ @media(max-width:580px){
+  .Comida{
+    max-width: 150px;
+  }
+ }
+ 

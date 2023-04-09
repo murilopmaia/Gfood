@@ -18,6 +18,7 @@
     flex-direction: row;
     width: 80%;
     gap: 7%;
+    background-color: #FFFFFF;
 
     
 }
@@ -149,4 +150,43 @@
   background-color: #F48E28;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid orange;
+}
+
+@media(max-width:988px){
+    .Corpo_navbar{
+        gap: 20%;
+    }
+    .Corpo_div_search{
+        width: 50%;
+    }
+}
+
+@media(max-width:833px){
+    .Corpo_navbar{
+        gap: 10%;
+    }
+}  
+
+@media(max-width:700px){
+    .Corpo_navbar .Logo{
+        width: 100px;
+    }
+    .Corpo_navbar{
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+        width: 100%;
+
+    }
+    .Centro_navbar{
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .Centro_navbar .NavBar_links{
+        gap: 30%;
+    }
+    .Centro_navbar .Corpo_div_search{
+        width: 100%;
+    }
 }

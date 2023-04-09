@@ -42,3 +42,13 @@
     padding: 3%;
     border-radius: 100%;
 }
+
+@media(max-width:635px){
+    .Instru h5{
+        font-size: 0.65rem;
+    }
+    
+    .Instru p{
+        font-size: 0.65rem;
+    }
+}

@@ -20,6 +20,7 @@
 
 .Services_titulo h3{
     font-size: 1.8rem;
+    text-align: center;
 
 }
 
@@ -72,8 +73,8 @@
     text-align: center;
 
     
-    padding: 65px 52px;
     
+    padding: 65px 52px;
     border-radius: 35px;
     box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.15);
 }
@@ -91,4 +92,27 @@
 .Services_meio h4{
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+@media(max-width:940px){
+    .Services_services{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .Services_extremidade{
+        width: 25%;
+    }
+    .Services_meio{
+        width: 25%;
+    }
+}
+
+@media(max-width:550px){
+    .Services_extremidade{
+        width: 30%;
+    }
+    .Services_meio{
+        width: 30%;
+    }
 }
