@@ -3,6 +3,14 @@ import { useState } from "react";
 
 //css
 import "./ComFooter.css"
+//Imagem
+import Logo_img from "../assets/Logo.png"
+import Facebook_img from "../assets/Facebook.png"
+import Twitter_img from "../assets/Twitter.png"
+import Linkind_img from "../assets/Linkind.png"
+import Instagram_img from '../assets/Instagram.png'
+
+
 function ComFooter(){
     const [Escrita,setEscrita] = useState("");
     const [Confirma,setConfirma] = useState("Enter your email.....")
@@ -20,13 +28,13 @@ function ComFooter(){
         <div className='Corpo_footer'>
             <footer >
                 <div className='div_logo'>
-                    <img width="50%" src="Logo.png" alt="Logo" />
+                    <img width="50%" src={Logo_img} alt="Logo" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit malesuada in quis. Arcu tristique elementum viverra integer id.</p>
                     <div className='Redes_soc'>
-                        <img width="12%" src="Facebook.png" alt="Facebook" />
-                        <img width="12%" src="Twitter.png" alt="Twitter" />
-                        <img width="12%" src="Linkind.png" alt="Linkind" />
-                        <img width="12%" src="Instagram.png" alt="Instagram" />
+                        <img width="12%" src={Facebook_img} alt="Facebook" />
+                        <img width="12%" src={Twitter_img} alt="Twitter" />
+                        <img width="12%" src={Linkind_img} alt="Linkind" />
+                        <img width="12%" src={Instagram_img} alt="Instagram" />
                     </div>
                 </div>
 

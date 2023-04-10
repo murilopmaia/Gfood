@@ -9,6 +9,9 @@ import "./Menu.css"
 //Lista de Alimentos
 import {ListaAlimentos} from "../data/ListaAlimentos"
 
+//Imagem
+import Seta_pequena_img from '../assets/Seta_pequena.png'
+
 function Menu({Qtd_itens},ScrollMenu){
    
     const [Nome_menu,setNome_menu] = useState("Most Popular Items");
@@ -71,7 +74,7 @@ function Menu({Qtd_itens},ScrollMenu){
             </div>
             <div onClick={handleProdutos} className="Botao_more">
                 <p>{Nome_Bot}</p>
-                <img src="Seta_pequena.png" alt="Seta" />
+                <img src={Seta_pequena_img} alt="Seta" />
             </div>
         </div>
     )

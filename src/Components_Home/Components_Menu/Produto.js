@@ -1,5 +1,7 @@
 //css
 import "./Produto.css"
+//Imagem
+import Estrela_img from "../../assets/Estrela.png"
 
 function Produto({Qtd_itens,Estrelas, Nome, Imagem, Preço}){
     return(
@@ -16,7 +18,7 @@ function Produto({Qtd_itens,Estrelas, Nome, Imagem, Preço}){
                 </div>
                 <div className="Alinhar_produto_esquerda">
                     <div className="Estrela">
-                        <img src="Estrela.png" alt="Estrela" />
+                        <img src={Estrela_img} alt="Estrela" />
                         <p>{Estrelas}</p>
                     </div>
                     <p>${Preço}</p>

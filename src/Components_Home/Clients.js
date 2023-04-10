@@ -3,7 +3,8 @@ import {useState} from 'react'
 
 //css
 import "./Clients.css"
-
+//Imagem
+import Hamburguer_img from '../assets/Hamburguer.png'
  
 function Clientes(){
     const [Ind,setInd] = useState(0)
@@ -63,7 +64,7 @@ function Clientes(){
                 <button onClick={handleDireita}>{direita}</button>
             </div>
 
-            <img className='Imagem_hamb' width="40%"  src="Hamburguer.png" alt="Hambuguer" />
+            <img className='Imagem_hamb' width="40%"  src={Hamburguer_img} alt="Hambuguer" />
             </div>
         </div>
     )

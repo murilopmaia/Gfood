@@ -1,6 +1,11 @@
 //css
 import "./How_to_work.css"
 
+//Imagem
+import Tela_not_img from '../assets/Tela_not.png'
+import Food_img from '../assets/Food.png'
+import Sacolas_img from '../assets/Sacolas.png'
+
 function How_to_work(){
     return(
         <div className="How_corpo">
@@ -11,7 +16,7 @@ function How_to_work(){
 
             <div className="How_infos">
                 <div className="How_esquerdo">
-                    <img src="Tela_not.png" alt="Tela" />
+                    <img src={Tela_not_img} alt="Tela" />
                     
                     <div className="Nome_bolinha_esquerdo">
                         <h4>CHOOSE</h4>
@@ -36,12 +41,12 @@ function How_to_work(){
                     adhere to a therapeutic diet? Our
                     dietitian will help you with choosing the
                     right program!</p>
-                    <img src="Food.png" alt="Food" />
+                    <img src={Food_img} alt="Food" />
 
                 </div>
 
                 <div className="How_direito">
-                    <img src="Sacolas.png" alt="Sacolas" />
+                    <img src={Sacolas_img} alt="Sacolas" />
                     <div className="Nome_bolinha_direito">
                         <div className="Bolinha"></div>
                         <h4>DELIVER</h4>

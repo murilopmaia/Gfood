@@ -2,6 +2,10 @@ import { useState } from "react";
 
 //css
 import "./NewsLetter.css"
+
+//Imagem
+import Hamb_letter_img from '../assets/Hamb_Letter.png'
+
 function NewsLetter(){
     const [Escrita,setEscrita] = useState("");
     const [Confirma,setConfirma] = useState("Type your email.....")
@@ -17,7 +21,7 @@ function NewsLetter(){
     return(
         <div className="Corpo_NewsLetter">
             <div className="Fundo_NewsLetter"></div>
-            <img width="40%" src="Hamb_Letter.png" alt="Hambuguer" />
+            <img width="40%" src={Hamb_letter_img} alt="Hambuguer" />
             <div className="Infos_letter">
                 <h3>Subcribe To Our Newsletter</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipidrscing elit. Purus mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra turpis id ac. Amet faucibus tempus.</p>

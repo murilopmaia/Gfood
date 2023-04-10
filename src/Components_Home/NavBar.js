@@ -7,7 +7,8 @@ import Pesquisa_item from './Components_NavBar/Pesquisa_item'
 //css
 import "./NavBar.css"
 //Imagem
-import Logo from '../assets/Logo.png'
+import Logo_img from '../assets/Logo.png'
+import Carrinho_img from '../assets/Carrinho.png'
 
 function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Qtd_itens}){
     const [Escrita,setEscrita] = useState("");
@@ -16,7 +17,7 @@ function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Q
     return(
            
             <header className='Corpo_navbar'>
-                <img className='Logo' width="60px" src={Logo} alt="Logo" />
+                <img className='Logo' width="60px" src={Logo_img} alt="Logo" />
                 <div className='Centro_navbar'>
                     <div className='NavBar_links' >
                         <button onClick={Handle_ScrollHome}>Home</button>
@@ -36,7 +37,7 @@ function NavBar({Handle_ScrollHome,Handle_ScrollMenu ,Handle_ScrollService,Qtd,Q
                             <div className='Linha_cinza'></div>
                             <div className='Carrinho'>
                                 <div className='Quantidade_carrinho'><p>{Qtd}</p></div>
-                                <img src="Carrinho.png" alt="Carrinho" />
+                                <img src={Carrinho_img} alt="Carrinho" />
                                 
                             </div>
                         </div>
