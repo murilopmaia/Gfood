@@ -4,11 +4,11 @@ import { useState } from "react";
 //css
 import "./ComFooter.css"
 //Imagem
-import Logo_img from "../assets/Logo.png"
-import Facebook_img from "../assets/Facebook.png"
-import Twitter_img from "../assets/Twitter.png"
-import Linkind_img from "../assets/Linkind.png"
-import Instagram_img from '../assets/Instagram.png'
+import Logo_img from "../../assets/Logo.png"
+import Facebook_img from "../../assets/Facebook.png"
+import Twitter_img from "../../assets/Twitter.png"
+import Linkind_img from "../../assets/Linkind.png"
+import Instagram_img from '../../assets/Instagram.png'
 
 
 function ComFooter(){

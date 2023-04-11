@@ -2,9 +2,9 @@
 import "./How_to_work.css"
 
 //Imagem
-import Tela_not_img from '../assets/Tela_not.png'
-import Food_img from '../assets/Food.png'
-import Sacolas_img from '../assets/Sacolas.png'
+import Tela_not_img from '../../assets/Tela_not.png'
+import Food_img from '../../assets/Food.png'
+import Sacolas_img from '../../assets/Sacolas.png'
 
 function How_to_work(){
     return(

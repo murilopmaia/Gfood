@@ -2,9 +2,9 @@
 import "./Infos.css"
 
 //Imagem
-import horario_img from '../assets/horario.png'
-import Local_img from '../assets/Local.png'
-import telefone_img from '../assets/telefone.png'
+import horario_img from '../../assets/horario.png'
+import Local_img from '../../assets/Local.png'
+import telefone_img from '../../assets/telefone.png'
 
 function Infos(){
     return(

@@ -4,9 +4,9 @@ import {useRef,forwardRef} from 'react'
 import "./Services.css"
 
 //Imagem
-import Garfo_faca_img from "../assets/Garfo_faca.png"
-import Colher_Garfo_img from '../assets/Colher_Garfo.png'
-import Transporte_img from '../assets/Transporte.png'
+import Garfo_faca_img from "../../assets/Garfo_faca.png"
+import Colher_Garfo_img from '../../assets/Colher_Garfo.png'
+import Transporte_img from '../../assets/Transporte.png'
 
 
 function Services({},ScrollService){

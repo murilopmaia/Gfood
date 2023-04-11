@@ -4,7 +4,7 @@ import { useState } from "react";
 import "./NewsLetter.css"
 
 //Imagem
-import Hamb_letter_img from '../assets/Hamb_Letter.png'
+import Hamb_letter_img from '../../assets/Hamb_Letter.png'
 
 function NewsLetter(){
     const [Escrita,setEscrita] = useState("");
@@ -12,7 +12,7 @@ function NewsLetter(){
 
     function HandleSubmit(e){
         e.preventDefault();
-        if(Escrita != "" ){
+        if(Escrita !== "" ){
             setConfirma("Enviado!");
             setEscrita("");
         }

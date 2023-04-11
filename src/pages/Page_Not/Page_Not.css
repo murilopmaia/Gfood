@@ -10,11 +10,13 @@
 
 .Corpo_page_not h1{
     font-size: 5rem;
+    text-align: center;
 }
 
 .Corpo_page_not a{
     padding: 0.5% 0;
     width: 8%;
+    min-width: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
