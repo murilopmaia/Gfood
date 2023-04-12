@@ -182,7 +182,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        gap: 12px;
+        gap: 15px;
     }
     .Centro_navbar .NavBar_links{
         gap: 20%;
