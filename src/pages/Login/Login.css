@@ -54,9 +54,7 @@
     font-size: 3rem;
 }
 
-.Login form .Cadastro{
-    color: black;
-}
+
 
 .Login form {
     height: 40%;
@@ -69,6 +67,7 @@
 }
 
 .Login form .Cadastro{
+    color: black;
     width: 100%;
     display: flex;
     align-items: center;
@@ -87,6 +86,14 @@
    background: transparent;
    border-radius: 30px;
    text-align: center;
+}
+
+.Login form .Cadastro input:focus{
+    outline: 0;
+}
+
+.ERRO{
+    border: red 2px solid;
 }
 
 .Login form .Login_Signup{

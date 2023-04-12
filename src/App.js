@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Page_Not from "./pages/Page_Not/Page_Not";
 import Login from './pages/Login/Login'
+import SignUp from './pages/SignUp/SignUp'
 
 //css
 import "./App.css";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Terms" element={<Page_Not />} />
           <Route path="/Shope" element={<Page_Not />} />
           <Route path="/Login" element={<Login />}/>
+          <Route path="/SignUp" element={<SignUp/>}/>
           {/* <Route path='*' element={}/> */}
         </Routes>
       </BrowserRouter>
