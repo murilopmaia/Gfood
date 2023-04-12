@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/gfood/static/css/main.aa670c77.css",
-    "main.js": "/gfood/static/js/main.7260dc1f.js",
+    "main.css": "/gfood/static/css/main.a12c7a23.css",
+    "main.js": "/gfood/static/js/main.49461ede.js",
     "static/js/787.4c9206f0.chunk.js": "/gfood/static/js/787.4c9206f0.chunk.js",
+    "static/media/Imagem_lateral.png": "/gfood/static/media/Imagem_lateral.f591359f776b648e2ee5.png",
+    "static/media/Hamburguer.png": "/gfood/static/media/Hamburguer.c17fb8a03c8f70be9095.png",
+    "static/media/Hamb_Letter.png": "/gfood/static/media/Hamb_Letter.36d7b7aa5c1a61ef531c.png",
+    "static/media/Fundo_login.png": "/gfood/static/media/Fundo_login.27613700aea2e1a6c52b.png",
+    "static/media/Food.png": "/gfood/static/media/Food.96adb9c36bb6bf3cab06.png",
+    "static/media/Sacolas.png": "/gfood/static/media/Sacolas.04b2cea3f77724de6bd8.png",
+    "static/media/Tela_not.png": "/gfood/static/media/Tela_not.42f0506f16a59386c105.png",
     "index.html": "/gfood/index.html",
-    "main.aa670c77.css.map": "/gfood/static/css/main.aa670c77.css.map",
-    "main.7260dc1f.js.map": "/gfood/static/js/main.7260dc1f.js.map",
+    "main.a12c7a23.css.map": "/gfood/static/css/main.a12c7a23.css.map",
+    "main.49461ede.js.map": "/gfood/static/js/main.49461ede.js.map",
     "787.4c9206f0.chunk.js.map": "/gfood/static/js/787.4c9206f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa670c77.css",
-    "static/js/main.7260dc1f.js"
+    "static/css/main.a12c7a23.css",
+    "static/js/main.49461ede.js"
   ]
 }
