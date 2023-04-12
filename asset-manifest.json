@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gfood/static/css/main.21d22762.css",
-    "main.js": "/gfood/static/js/main.1c43a8ad.js",
+    "main.css": "/gfood/static/css/main.122583a5.css",
+    "main.js": "/gfood/static/js/main.85476cb7.js",
     "static/js/787.4c9206f0.chunk.js": "/gfood/static/js/787.4c9206f0.chunk.js",
     "static/media/Imagem_lateral.png": "/gfood/static/media/Imagem_lateral.f591359f776b648e2ee5.png",
     "static/media/Hamburguer.png": "/gfood/static/media/Hamburguer.c17fb8a03c8f70be9095.png",
@@ -12,12 +12,12 @@
     "static/media/Icon_sad.png": "/gfood/static/media/Icon_sad.4b05e9ac56952c066b2d.png",
     "static/media/Tela_not.png": "/gfood/static/media/Tela_not.42f0506f16a59386c105.png",
     "index.html": "/gfood/index.html",
-    "main.21d22762.css.map": "/gfood/static/css/main.21d22762.css.map",
-    "main.1c43a8ad.js.map": "/gfood/static/js/main.1c43a8ad.js.map",
+    "main.122583a5.css.map": "/gfood/static/css/main.122583a5.css.map",
+    "main.85476cb7.js.map": "/gfood/static/js/main.85476cb7.js.map",
     "787.4c9206f0.chunk.js.map": "/gfood/static/js/787.4c9206f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21d22762.css",
-    "static/js/main.1c43a8ad.js"
+    "static/css/main.122583a5.css",
+    "static/js/main.85476cb7.js"
   ]
 }
