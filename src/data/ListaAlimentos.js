@@ -100,7 +100,7 @@ export const ListaAlimentos={//Lista de Alimentos, dividio em Vitrine1 a 4, Popu
 
     Outros: [{
         imagem: "https://www.sabornamesa.com.br/media/k2/items/cache/5031e263a4a258791d6306b2d3d9dbf6_XL.jpg",
-        Nome: "Suchi",
+        Nome: "Sushi",
         Preço: 100.50,
         Descri: "Uma vitrine, vitrina ou montra é um ",
         Estrelas: 2

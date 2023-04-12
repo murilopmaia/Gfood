@@ -34,6 +34,7 @@
 }
 
 .NavBar_links button{
+    color: black;
     border: 0;
     height: 50%;
     background-color: #FFFFFF;
