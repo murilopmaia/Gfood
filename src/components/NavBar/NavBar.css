@@ -35,8 +35,7 @@
 
 .NavBar_links button{
     color: black;
-    border: 0;
-    height: 50%;
+    border: 0; 
     background-color: #FFFFFF;
     font-weight: bold;
     transition: all 500ms ease;
