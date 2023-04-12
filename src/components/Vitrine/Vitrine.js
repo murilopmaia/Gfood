@@ -2,7 +2,7 @@ import {useState} from 'react'
 //css
 import "./Vitrine.css"
 
-function Vitrine({Apresente}){
+function Vitrine({Apresente}){ //Apresente é o objeto da lista Alimentos a ser apresentado
     const direita = "\u2192"
     const esquerda ="\u2190"
     const [Ind,setInd] = useState(0);

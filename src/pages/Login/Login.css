@@ -1,6 +1,7 @@
 .Corpo_login{
     width: 100vw;
     height: 100vh;
+    min-height: 721.60px;
     position: relative;
     display: flex;
     align-items: center;
@@ -139,4 +140,25 @@
     height: 100%;
     overflow: hidden;
     
+}
+
+@media(max-width:1117px){
+    .Centro_login{
+        width: 75%;
+    }
+}
+
+@media(max-width:955px){
+    .Centro_login{
+        width: 90%;
+    }
+}
+
+@media(max-width:700px){
+    .Imagem_lateral{
+        display: none;
+    }
+    .Login{
+        width: 100%;
+    }
 }

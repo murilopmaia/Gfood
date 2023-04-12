@@ -38,7 +38,7 @@
     align-items: center;
     gap: 35px;
     width: 50%;
-    height: 250px;
+    min-height: 250px;
     background: #FFFFFF;
     text-align: center;
 
@@ -68,7 +68,7 @@
     align-items: center;
     gap: 35px;
     width: 50%;
-    height: 250px;
+    min-height: 250px;
     background: #FFFFFF;
     text-align: center;
 

@@ -12,29 +12,27 @@ import Logo_img from "../../assets/Logo.png";
 
 function Login() {
   const Navigate = useNavigate();
-  const [User, setUser] = useState("");
-  const [Pass, setPass] = useState("");
-  const [UserERROR, setUserERROR] = useState(false);
+  const [User, setUser] = useState("");//Valor do input User
+  const [Pass, setPass] = useState("");//Valor do input Pass
+  const [UserERROR, setUserERROR] = useState(false);//Serve para demostrar que esta invalido
   const [PassERROR, setPassERROR] = useState(false);
 
-  function HandleSubmit(e) {
+  function HandleSubmit(e) {//Função que verifica as infomaçoes do input
     e.preventDefault();
 
-    if(User !== ''){
-        setUserERROR(false);
-    }
-    else{
-        setUserERROR(true);
-    }
-
-    if(Pass !== ''){
-        setPassERROR(false);
-    }
-    else{
-        setPassERROR(true)
+    if (User !== "") {
+      setUserERROR(false);
+    } else {
+      setUserERROR(true);
     }
 
-    if(Pass !== '' && User !== ''){
+    if (Pass !== "") {
+      setPassERROR(false);
+    } else {
+      setPassERROR(true);
+    }
+
+    if (Pass !== "" && User !== "") {
       const result = LoginCadas.findIndex((item) => item.UserName === User);
       if (result === -1) {
         setUserERROR(true);
@@ -88,7 +86,13 @@ function Login() {
             </div>
             <div className="Login_Signup">
               <input type="Submit" value="LOGIN" />
-              <p onClick={()=>{Navigate("/SignUp")}}>Don't have an account?</p>
+              <p
+                onClick={() => {
+                  Navigate("/SignUp");
+                }}
+              >
+                Don't have an account?
+              </p>
             </div>
           </form>
         </div>

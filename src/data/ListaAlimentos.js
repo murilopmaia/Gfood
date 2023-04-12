@@ -1,4 +1,4 @@
-export const ListaAlimentos={
+export const ListaAlimentos={//Lista de Alimentos, dividio em Vitrine1 a 4, Populares e outros, os vitrines são os que serão apresentados no Topo, Populares aqueles que estarão no inicio de Produtos populares
     Vitrine1: [{
         imagem: "https://cursodohamburguerperfeito.com.br/wp-content/uploads/2021/08/Burger-280931852.png",
         Nome: "Hambuguer",

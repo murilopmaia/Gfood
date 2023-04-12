@@ -3,7 +3,7 @@ import { ListaAlimentos } from "../../data/ListaAlimentos";
 import { useState } from "react";
 
 //Component
-import Pesquisa_item from '../Pesquisa_item/Pesquisa_item'
+import Pesquisa_item from "../Pesquisa_item/Pesquisa_item";
 //css
 import "./NavBar.css";
 //Imagem
@@ -17,8 +17,9 @@ function NavBar({
   Qtd,
   Qtd_itens,
 }) {
-  const [Escrita, setEscrita] = useState("");
-  const [Foco, setFoco] = useState(0);
+  // esta recebendo funções para mover o scroll e a quantidade de itens no carrinho, junto com sua função de add no carrinho
+  const [Escrita, setEscrita] = useState(""); //Valor do input
+  const [Foco, setFoco] = useState(0); //Verifica se o foco esta no input
 
   return (
     <header className="Corpo_navbar">
@@ -35,7 +36,7 @@ function NavBar({
             <div className="Corpo_search">
               <input
                 type="text"
-                placeholder="     Search"
+                placeholder="Search"
                 value={Escrita}
                 onChange={(e) => setEscrita(e.target.value)}
                 onFocus={() => setFoco(1)}

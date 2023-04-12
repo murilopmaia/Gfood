@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import { Link, useNavigate } from "react-router-dom";
 //css
 import "./Topo.css";
 //Components
@@ -7,6 +7,7 @@ import Vitrine from "../Vitrine/Vitrine";
 import { ListaAlimentos } from "../../data/ListaAlimentos";
 
 function Topo() {
+  const Navigate = useNavigate();
   return (
     <div className="Corpo_topo">
       <div className="Esquerdo">
@@ -41,13 +42,17 @@ function Topo() {
         </div>
 
         <div className="Botoes">
-          
-          
+          <Link to="/Login" className="Bot_esquerdo">
+            Order Now
+          </Link>
 
-          <Link to="/Login" className='Bot_esquerdo'>Order Now</Link>
-          
           <div className="Alinhar">
-            <button className="Bot_direito">
+            <button
+              onClick={() => {
+                Navigate("/Order");
+              }}
+              className="Bot_direito"
+            >
               <img
                 width="40px"
                 src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/play-icon-11-256.png"

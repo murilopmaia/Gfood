@@ -17,8 +17,8 @@ import "./Home.css";
 function Home() {
   const ScrollHome = useRef(null);
   const ScrollMenu = useRef(null);
-  const ScrollService = useRef(null);
-  const [Qtd, setQtd] = useState(0);
+  const ScrollService = useRef(null); //Para mover o scroll usando ref
+  const [Qtd, setQtd] = useState(0); //Quantidade de itens no carrinho
 
   function Qtd_itens() {
     setQtd((prevQtd) => prevQtd + 1);

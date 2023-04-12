@@ -4,14 +4,15 @@ import { useState } from "react";
 //css
 import "./Clients.css";
 //Imagem
-import Hamburguer_img from "../../assets/Hamburguer.png"
+import Hamburguer_img from "../../assets/Hamburguer.png";
 
 function Clientes() {
   const [Ind, setInd] = useState(0);
-  const direita = "\u2192";
+  const direita = "\u2192"; //codigo de uma seta em ascii
   const esquerda = "\u2190";
 
   function handleEsquerda() {
+    //Diminui o indice da lista
     if (Ind - 1 === -1) {
       setInd(ClientesData.length - 1);
     } else {
@@ -20,6 +21,7 @@ function Clientes() {
   }
 
   function handleDireita() {
+    //Aumenta o indice da lista
     if (Ind + 1 === ClientesData.length) {
       setInd(0);
     } else {
@@ -33,10 +35,13 @@ function Clientes() {
         <p>Testimonials</p>
         <h3>Our Happy Client Says</h3>
       </div>
+
       <div className="Clientes_Corpo">
         <div className="Cliente_descri">
           <div className="Fundo_cliente_branco"></div>
+
           <button onClick={handleEsquerda}>{esquerda}</button>
+
           <div className="Cliente_corpo_info">
             <div className="Cliente_perfil">
               <div className="Imagem_foto">

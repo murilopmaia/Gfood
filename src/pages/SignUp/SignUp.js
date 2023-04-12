@@ -3,7 +3,7 @@ import { LoginCadas } from "../../data/LoginCadas";
 import { useState } from "react";
 
 //css
-import "./SignUp.css"
+import "./SignUp.css";
 
 //Imagem
 import Fundo_img from "../../assets/Fundo_login.png";
@@ -12,57 +12,52 @@ import Logo_img from "../../assets/Logo.png";
 
 function SignUp() {
   const Navigate = useNavigate();
-  const [Email,setEmail] = useState("");
+  const [Email, setEmail] = useState("");
   const [User, setUser] = useState("");
   const [Pass, setPass] = useState("");
   const [UserERROR, setUserERROR] = useState(false);
   const [PassERROR, setPassERROR] = useState(false);
-  const [EmailERROR,setEmailERROR] = useState(false);
+  const [EmailERROR, setEmailERROR] = useState(false);
 
   function HandleSubmit(e) {
     e.preventDefault();
-    if(Email !== ""){
-        setEmailERROR(false);
-    }
-    else{
-        setEmailERROR(true);
+    if (Email !== "") {
+      setEmailERROR(false);
+    } else {
+      setEmailERROR(true);
     }
 
-    if(User !== ""){
-        setUserERROR(false);
+    if (User !== "") {
+      setUserERROR(false);
+    } else {
+      setUserERROR(true);
     }
-    else{
+
+    if (Pass !== "") {
+      setPassERROR(false);
+    } else {
+      setPassERROR(true);
+    }
+
+    if (Email !== "" && User !== "" && Pass !== "") {
+      const result = LoginCadas.findIndex((item) => item.E_mail === Email);
+      const resul2 = LoginCadas.findIndex((item) => item.UserName === User);
+      console.log(result);
+      console.log(resul2);
+      if (result === -1 && resul2 === -1) {
+        LoginCadas.push({
+          UserName: User,
+          PassWord: Pass,
+          E_mail: Email,
+        });
+        Navigate("/gfood");
+      } else if (result === -1 && resul2 !== -1) {
         setUserERROR(true);
-    }
-
-    if(Pass !== ""){
-        setPassERROR(false);
-    }
-    else{
-        setPassERROR(true);
-    }
-
-    if(Email !== "" && User !== "" && Pass !== ""){
-        const result = LoginCadas.findIndex((item)=>item.E_mail === Email);
-        const resul2 = LoginCadas.findIndex((item)=>item.UserName === User);
-        console.log(result)
-        console.log(resul2)
-        if(result === -1 && resul2 ===-1){
-            LoginCadas.push({
-                UserName: User,
-                PassWord: Pass,
-                E_mail: Email
-            })
-            Navigate("/gfood");
-        }
-        else if(result === -1 && resul2 !==-1){
-            setUserERROR(true);
-            setUser("");
-        }
-        else{
-            setEmailERROR(true);
-            setEmail("");
-        }
+        setUser("");
+      } else {
+        setEmailERROR(true);
+        setEmail("");
+      }
     }
   }
 
@@ -91,14 +86,14 @@ function SignUp() {
                 />
               </label>
               <label>
-                    <h5>E-MAIL</h5>
-                    <input 
-                        type="email"
-                        value={Email}
-                        onChange={(e)=> setEmail(e.target.value)}
-                        className={EmailERROR === true? "ERRO_SignUp" : null}
-                        placeholder={EmailERROR === true ? "Invalid E-mail" : null}
-                    />
+                <h5>E-MAIL</h5>
+                <input
+                  type="email"
+                  value={Email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className={EmailERROR === true ? "ERRO_SignUp" : null}
+                  placeholder={EmailERROR === true ? "Invalid E-mail" : null}
+                />
               </label>
               <label>
                 <h5>PASSWORD</h5>
@@ -113,7 +108,13 @@ function SignUp() {
             </div>
             <div className="SignUp_Login">
               <input type="Submit" value="SignUp" />
-              <p onClick={()=>{Navigate("/Login")}}>Do have an account?</p>
+              <p
+                onClick={() => {
+                  Navigate("/Login");
+                }}
+              >
+                Do have an account?
+              </p>
             </div>
           </form>
         </div>

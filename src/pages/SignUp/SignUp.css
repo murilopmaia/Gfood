@@ -1,6 +1,8 @@
+
 .Corpo_SignUp {
   width: 100vw;
   height: 100vh;
+  min-height: 721.60px;
   position: relative;
   display: flex;
   align-items: center;
@@ -134,4 +136,25 @@
   width: 45%;
   height: 100%;
   overflow: hidden;
+}
+
+@media(max-width:1117px){
+  .Centro_SignUp{
+      width: 75%;
+  }
+}
+
+@media(max-width:955px){
+  .Centro_SignUp{
+      width: 90%;
+  }
+}
+
+@media(max-width:700px){
+  .Imagem_lateral_SignUp{
+      display: none;
+  }
+  .SignUp{
+      width: 100%;
+  }
 }
